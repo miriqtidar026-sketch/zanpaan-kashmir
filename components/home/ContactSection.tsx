@@ -24,14 +24,14 @@ Trip Details:
 ${form.trip}`;
 
   window.open(
-    `https://wa.me/919682181623?text=${encodeURIComponent(message)}`,
+    `https://wa.me/919469181623?text=${encodeURIComponent(message)}`,
     "_blank"
   );
 };
 
 
     return (
-        <section className="bg-stone-50 py-20">
+       <section id="contact" className="bg-stone-50 py-20">
             <div className="max-w-7xl mx-auto px-6">
 
                 <div className="text-center mb-16">
