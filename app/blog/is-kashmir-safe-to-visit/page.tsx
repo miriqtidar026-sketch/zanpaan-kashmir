@@ -194,29 +194,7 @@ export default function KashmirSafetyGuide() {
 
                 </div>
 
-                <section className="mt-20">
-
-                    <h2 className="text-4xl font-bold mb-8">
-                        Is Kashmir Safe for Families?
-                    </h2>
-
-                    <Image
-                        src="/images/blog/family-trip.jpg"
-                        alt="Family travelling in Kashmir"
-                        width={1400}
-                        height={900}
-                        className="rounded-2xl w-full mb-8"
-                    />
-
-                    <p className="text-lg leading-8 text-gray-700">
-                        Yes. Families visit Kashmir every year to enjoy peaceful holidays,
-                        sightseeing, nature, local food and memorable experiences. Tourist
-                        destinations such as Srinagar, Gulmarg, Pahalgam and Sonamarg are
-                        well known for welcoming visitors and offering a wide variety of
-                        accommodation, transport and activities.
-                    </p>
-
-                </section>
+             
                 <section className="mt-20">
 
                     <h2 className="text-4xl font-bold mb-8">
