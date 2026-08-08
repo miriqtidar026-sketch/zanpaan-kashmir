@@ -6,12 +6,12 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 z-10"></div>
 
       {/* Background Image */}
       <img
-        src="https://images.unsplash.com/photo-1598091383021-15ddea10925d"
-        alt="Beautiful view of Dal Lake surrounded by the Himalayan mountains in Srinagar, Kashmir"
+        src="/images/hero.jpg"
+        alt="Beautiful Kashmir landscape"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
@@ -21,12 +21,11 @@ export default function Hero() {
           Premium Kashmir Experiences
         </p>
 
-        <h1 className="text-5xl md:text-8xl font-bold leading-none">
+        <h1 className="text-5xl md:text-8xl font-bold leading-none [text-shadow:0_3px_10px_rgba(0,0,0,0.75)]">
           Luxury Kashmir Tour Packages
         </h1>
 
-        <p className="mt-6 text-lg max-w-2xl mx-auto text-gray-200">
-          Discover Srinagar, Gulmarg, Pahalgam, and Sonamarg with premium
+        <p className="mt-6 text-lg max-w-2xl mx-auto text-gray-200 [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]">          Discover Srinagar, Gulmarg, Pahalgam, and Sonamarg with premium
           Kashmir tour packages, private transport, luxury stays, and
           unforgettable local experiences.
         </p>
@@ -45,7 +44,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="px-8 py-4 rounded-full bg-white text-black border border-gray-300 hover:bg-gray-100 hover:scale-105 transition duration-300 inline-flex items-center justify-center"
           >
-            Book Now
+           Design Your Journey
           </a>
         </div>
       </div>
