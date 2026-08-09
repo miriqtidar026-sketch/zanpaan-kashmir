@@ -7,18 +7,17 @@ export default function FeaturedPackages() {
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gray-500">
-            Featured Experience
+          Signature Collections
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-gray-900">
-            Premium Kashmir Tour Packages
+           Curated Kashmir Journeys
           </h2>
 
           <p className="mt-6 text-lg text-gray-600">
-            Explore our carefully curated Kashmir tour packages covering
-            Srinagar, Gulmarg, Sonamarg, and other breathtaking destinations.
-            Enjoy luxury stays, private transportation, authentic Kashmiri
-            hospitality, and unforgettable travel experiences.
+            Discover our hand-crafted luxury itineraries covering Srinagar, Gulmarg, Sonamarg, and beyond.
+             Experience uncompromising comfort with premium boutique stays,
+              private VIP transportation, and an authentic local concierge to guide your escape.
           </p>
         </div>
 
@@ -26,7 +25,7 @@ export default function FeaturedPackages() {
         <div className="mx-auto max-w-5xl">
           <PackageCard
             image="/images/packages/cou.jpeg"
-            title="Kashmir Signature Tour"
+            title="The Zanpaan Signature Journey"
             duration="5 Days • 4 Nights"
             destinations={[
               "Srinagar",
@@ -34,7 +33,7 @@ export default function FeaturedPackages() {
               "Sonamarg",
               "Local Sightseeing",
             ]}
-            price="₹48,000 / Couple"
+            price="69,999 / Couple"
           />
         </div>
       </div>

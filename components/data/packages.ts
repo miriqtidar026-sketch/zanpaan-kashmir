@@ -32,11 +32,11 @@ export type Package = {
 
 export const packages: Record<string, Package> = {
   honeymoon: {
-    title: "Honeymoon Package",
-    price: "₹30,000 / Person",
+    title: "The Curated Romance Escape",
+    price: "₹69,999 / Couple",
     duration: "5 Days / 4 Nights",
     bestFor: "Couples & Honeymooners",
-    transport: "Private Cab Included",
+    transport: "Private AC Sedan",
     image: "/images/packages/destinations/honeymoon.jpg",
 
     overview:
@@ -136,11 +136,11 @@ export const packages: Record<string, Package> = {
     ],
   },
     family: {
-    title: "Family Package",
-    price: "₹28,000 / Person",
+    title: "The Heritage Family Retreat",
+    price: "₹29,999 / Person",
     duration: "6 Days / 5 Nights",
     bestFor: "Families",
-    transport: "Private Cab Included",
+    transport: "Spacious Premium SUV",
     image: "/images/packages/destinations/family.jpg",
 
     overview:
@@ -236,11 +236,11 @@ export const packages: Record<string, Package> = {
   },
 
   group: {
-    title: "Group Package",
-    price: "₹24,999 / Person",
+    title: "The Group Retreat",
+    price: "₹26,999 / Person",
     duration: "5 Days / 4 Nights",
-    bestFor: "Friends & Groups",
-    transport: "Private Tempo Traveller",
+    bestFor: "Friends & Groups Escape",
+    transport: "Spacious Luxury Traveller",
     image: "/images/packages/destinations/group.jpg",
 
     overview:
@@ -329,7 +329,7 @@ export const packages: Record<string, Package> = {
   },
   signature: {
   title: "Kashmir Signature Tour",
-  price: "₹48,000 / Couple",
+  price: "₹59,999 / Couple",
   duration: "6 Days / 5 Nights",
   bestFor: "Couples, Families & Luxury Travelers",
   transport: "Private SUV / Sedan Included",
@@ -431,16 +431,15 @@ export const packages: Record<string, Package> = {
   ],
 },
     solo: {
-    title: "Solo Package",
-    price: "₹26,000 / Person",
+    title: " The Solo Retreat",
+    price: "₹29,999 / Person",
     duration: "4 Days / 3 Nights",
     bestFor: "Solo Travelers",
-    transport: "Private Cab Included",
+    transport: "Private Premium Hatchback",
     image: "/images/packages/destinations/solo.jpg",
 
     overview:
-      "Explore Kashmir at your own pace with our Solo Package. Perfect for travelers seeking peace, adventure, and breathtaking scenery while enjoying a safe and comfortable journey.",
-
+"Explore the serene valleys at your own pace. Designed exclusively for solo travelers seeking peace, adventure, and breathtaking scenery, complete with 24/7 concierge support.",
     itinerary: [
       {
         day: "Day 1",
@@ -511,11 +510,11 @@ export const packages: Record<string, Package> = {
   },
 
   luxury: {
-    title: "Luxury Package",
-    price: "₹50,000 / Person",
+    title: "The Ultra-Luxury Reserve",
+    price: "₹59,999 / Person",
     duration: "6 Days / 5 Nights",
-    bestFor: "Luxury Travelers",
-    transport: "Premium Private Cab",
+    bestFor: "VIP'S & Discerning Travelers",
+    transport: "Premium SUV & Dedicated concierge",
     image: "/images/packages/destinations/luxury.jpg",
 
     overview:
@@ -604,10 +603,10 @@ export const packages: Record<string, Package> = {
 
   customized: {
     title: "Customized Package",
-    price: "Starting from ₹30,000",
+    price: "Starting from 29,999",
     duration: "Flexible",
-    bestFor: "Everyone",
-    transport: "Customized Transport",
+    bestFor: "Custom Itineraries",
+    transport: "Fully Customizable",
     image: "/images/packages/destinations/customized.jpg",
 
     overview:
