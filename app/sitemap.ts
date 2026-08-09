@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { packages } from "@/components/data/packages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://zanpaankashmir.com";
+  const baseUrl = "https://www.zanpaankashmir.com";
 
   const packagePages = Object.keys(packages).map((slug) => ({
     url: `${baseUrl}/packages/${slug}`,
