@@ -43,7 +43,7 @@ Thank you!`
             </Link>
 
             <Link
-              href="tel:+919469181623"
+              href="tel:+919682181623"
               className="inline-flex items-center justify-center gap-3 rounded-xl border-2 border-blue-600 px-8 py-4 text-lg font-semibold text-blue-600 transition hover:bg-blue-600 hover:text-white"
             >
               <Phone size={22} />

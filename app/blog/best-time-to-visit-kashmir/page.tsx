@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
       "A complete season-wise guide to visiting Kashmir, including weather, snowfall, tulip season, and travel tips.",
     url: "https://www.zanpaankashmir.com/blog/best-time-to-visit-kashmir",
     type: "article",
-    images: ["/og-image.jpg"],
+    images: ["/images/blog/kashmir-seasonal-travel-guide-cover.jpg"],
   },
 };
 
@@ -39,7 +40,6 @@ export default function BestTimeToVisitKashmir() {
   return (
     <main className="bg-white pt-32 pb-20">
       <article className="max-w-5xl mx-auto px-6">
-
         <p className="uppercase tracking-[0.35em] text-sm text-gray-500 text-center">
           Kashmir Travel Guide
         </p>
@@ -49,15 +49,25 @@ export default function BestTimeToVisitKashmir() {
         </h1>
 
         <p className="mt-8 text-center text-lg text-gray-600 max-w-3xl mx-auto leading-8">
-          Kashmir is one of India's most beautiful destinations, offering a
+          Kashmir is one of India&apos;s most beautiful destinations, offering a
           different experience in every season. Whether you dream of snow-covered
           mountains, blooming tulip gardens, lush green valleys, or golden Chinar
           trees, choosing the right time to visit can make your journey even more
           memorable.
         </p>
 
-        <div className="mt-16 space-y-8 text-lg leading-8 text-gray-700">
+        <div className="relative mt-12 aspect-[16/9] overflow-hidden rounded-3xl">
+          <Image
+            src="/images/blog/kashmir-seasonal-travel-guide-cover.jpg"
+            alt="Shikara on Dal Lake with Kashmir mountains in the background"
+            fill
+            priority
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            className="object-cover"
+          />
+        </div>
 
+        <div className="mt-16 space-y-8 text-lg leading-8 text-gray-700">
           <h2 className="text-3xl font-bold text-black">
             Spring (March to May)
           </h2>
@@ -69,6 +79,16 @@ export default function BestTimeToVisitKashmir() {
             the valley to life. The weather is pleasant and ideal for sightseeing.
           </p>
 
+          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kashmir-spring-tulip-season.jpg"
+              alt="Colorful tulips blooming in Kashmir during spring"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
+
           <ul className="list-disc pl-6 space-y-2">
             <li>Temperature: 10°C – 20°C</li>
             <li>Perfect for couples and families</li>
@@ -76,7 +96,7 @@ export default function BestTimeToVisitKashmir() {
             <li>Visit Dal Lake, Tulip Garden and Mughal Gardens</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-black">
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Summer (June to August)
           </h2>
 
@@ -86,13 +106,24 @@ export default function BestTimeToVisitKashmir() {
             perfect season for outdoor activities and family holidays.
           </p>
 
+          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kashmir-summer-valley-travel.jpg"
+              alt="Green Kashmir valley landscape surrounded by mountains"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
+
           <ul className="list-disc pl-6 space-y-2">
             <li>Temperature: 15°C – 30°C</li>
             <li>Ideal for sightseeing</li>
             <li>Perfect weather for Gulmarg and Pahalgam</li>
             <li>Enjoy Gondola rides, trekking and river rafting</li>
           </ul>
-                    <h2 className="text-3xl font-bold text-black">
+
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Autumn (September to November)
           </h2>
 
@@ -104,23 +135,43 @@ export default function BestTimeToVisitKashmir() {
             than in summer.
           </p>
 
+          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kashmir-autumn-chinar-season.jpg"
+              alt="Golden Chinar trees in Kashmir during autumn"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
+
           <ul className="list-disc pl-6 space-y-2">
             <li>Temperature: 8°C – 22°C</li>
             <li>Perfect for photography</li>
             <li>Ideal for peaceful vacations</li>
-            <li>Experience Kashmir's famous autumn colours</li>
+            <li>Experience Kashmir&apos;s famous autumn colours</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-black">
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Winter (December to February)
           </h2>
 
           <p>
             Winter is the best season for travellers who want snowfall. Gulmarg
-            becomes one of Asia's top skiing destinations, while Srinagar,
+            becomes one of Asia&apos;s top skiing destinations, while Srinagar,
             Pahalgam, and Sonamarg are covered in snow, creating a magical
             winter landscape.
           </p>
+
+          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kashmir-winter-snowfall-gulmarg.jpg"
+              alt="Snow-covered Kashmir landscape during winter in Gulmarg"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
 
           <ul className="list-disc pl-6 space-y-2">
             <li>Temperature: -5°C – 8°C</li>
@@ -129,7 +180,7 @@ export default function BestTimeToVisitKashmir() {
             <li>Experience snow-covered valleys and mountains</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-black">
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Which Season is Best?
           </h2>
 
@@ -147,27 +198,22 @@ export default function BestTimeToVisitKashmir() {
                   <td className="border p-4">Honeymoon</td>
                   <td className="border p-4">December – February</td>
                 </tr>
-
                 <tr>
                   <td className="border p-4">Snowfall</td>
                   <td className="border p-4">December – February</td>
                 </tr>
-
                 <tr>
                   <td className="border p-4">Family Trip</td>
                   <td className="border p-4">April – June</td>
                 </tr>
-
                 <tr>
                   <td className="border p-4">Adventure Activities</td>
                   <td className="border p-4">June – September</td>
                 </tr>
-
                 <tr>
                   <td className="border p-4">Photography</td>
                   <td className="border p-4">September – November</td>
                 </tr>
-
                 <tr>
                   <td className="border p-4">Tulip Festival</td>
                   <td className="border p-4">March – April</td>
@@ -176,9 +222,19 @@ export default function BestTimeToVisitKashmir() {
             </table>
           </div>
 
-          <h2 className="text-3xl font-bold text-black">
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Travel Tips Before Visiting Kashmir
           </h2>
+
+          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kashmir-kashmir-city-travel.jpg"
+              alt="Srinagar city and mountains in Kashmir"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
 
           <ul className="list-disc pl-6 space-y-2">
             <li>Carry warm clothes even during summer evenings.</li>
@@ -187,12 +243,12 @@ export default function BestTimeToVisitKashmir() {
             <li>Wear comfortable walking shoes.</li>
             <li>Check weather conditions before travelling in winter.</li>
           </ul>
-                    <h2 className="text-3xl font-bold text-black">
+
+          <h2 className="pt-6 text-3xl font-bold text-black">
             Frequently Asked Questions
           </h2>
 
           <div className="space-y-8">
-
             <div>
               <h3 className="text-2xl font-semibold">
                 Which month is best for visiting Kashmir?
@@ -223,11 +279,10 @@ export default function BestTimeToVisitKashmir() {
 
               <p className="mt-2">
                 Most popular tourist destinations in Kashmir welcome thousands
-                of visitors every year. Before travelling, it's always wise to
-                check the latest travel advisories and follow local guidance.
+                of visitors every year. Before travelling, it&apos;s always wise
+                to check the latest travel advisories and follow local guidance.
               </p>
             </div>
-
           </div>
 
           <div className="mt-16 rounded-3xl bg-black p-10 text-center text-white">
@@ -236,13 +291,12 @@ export default function BestTimeToVisitKashmir() {
             </h2>
 
             <p className="mt-6 text-lg text-gray-300">
-              Whether you're planning a honeymoon, family vacation, solo
+              Whether you&apos;re planning a honeymoon, family vacation, solo
               adventure, or group tour, our local team can help you create a
               memorable Kashmir experience with carefully designed tour packages.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-
               <Link
                 href="/packages"
                 className="rounded-full bg-white px-8 py-4 font-semibold text-black transition hover:bg-gray-200"
@@ -258,10 +312,8 @@ export default function BestTimeToVisitKashmir() {
               >
                 Contact on WhatsApp
               </a>
-
             </div>
           </div>
-
         </div>
       </article>
     </main>
