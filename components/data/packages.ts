@@ -33,7 +33,7 @@ export type Package = {
 export const packages: Record<string, Package> = {
   honeymoon: {
     title: "The Curated Romance Escape",
-    price: "₹69,999 / Couple",
+    price: "₹49,999 / Couple",
     duration: "5 Days / 4 Nights",
     bestFor: "Couples & Honeymooners",
     transport: "Private AC Sedan",
@@ -137,7 +137,7 @@ export const packages: Record<string, Package> = {
   },
     family: {
     title: "The Heritage Family Retreat",
-    price: "₹29,999 / Person",
+    price: "₹21,999 / Person",
     duration: "6 Days / 5 Nights",
     bestFor: "Families",
     transport: "Spacious Premium SUV",
@@ -237,7 +237,7 @@ export const packages: Record<string, Package> = {
 
   group: {
     title: "The Group Retreat",
-    price: "₹26,999 / Person",
+    price: "₹21,999 / Person",
     duration: "5 Days / 4 Nights",
     bestFor: "Friends & Groups Escape",
     transport: "Spacious Luxury Traveller",
@@ -329,7 +329,7 @@ export const packages: Record<string, Package> = {
   },
   signature: {
   title: "Kashmir Signature Tour",
-  price: "₹59,999 / Couple",
+  price: "₹49,999 / Couple",
   duration: "6 Days / 5 Nights",
   bestFor: "Couples, Families & Luxury Travelers",
   transport: "Private SUV / Sedan Included",
@@ -432,7 +432,7 @@ export const packages: Record<string, Package> = {
 },
     solo: {
     title: " The Solo Retreat",
-    price: "₹29,999 / Person",
+    price: "₹25,999 / Person",
     duration: "4 Days / 3 Nights",
     bestFor: "Solo Travelers",
     transport: "Private Premium Hatchback",
@@ -511,7 +511,7 @@ export const packages: Record<string, Package> = {
 
   luxury: {
     title: "The Ultra-Luxury Reserve",
-    price: "₹59,999 / Person",
+    price: "₹49,999 / Person",
     duration: "6 Days / 5 Nights",
     bestFor: "VIP'S & Discerning Travelers",
     transport: "Premium SUV & Dedicated concierge",
@@ -603,7 +603,7 @@ export const packages: Record<string, Package> = {
 
   customized: {
     title: "Customized Package",
-    price: "Starting from 29,999",
+    price: "Starting from 19,999",
     duration: "Flexible",
     bestFor: "Custom Itineraries",
     transport: "Fully Customizable",

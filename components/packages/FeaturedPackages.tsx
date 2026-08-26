@@ -33,7 +33,7 @@ export default function FeaturedPackages() {
               "Sonamarg",
               "Local Sightseeing",
             ]}
-            price="69,999 / Couple"
+            price="49,999 / Couple"
           />
         </div>
       </div>
